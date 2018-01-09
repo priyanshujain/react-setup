@@ -1,14 +1,22 @@
-{
-	"name": "react-setup",
-	"version": "0.0.1",
+	{
+	"name": "setup-react-app",
+	"version": "0.0.3",
 	"description": "A simple smart setup for building a react app",
 	"main": "src/index.js",
 	"scripts": {
 		"start": "NODE_ENV=developement webpack-dev-server --open --history-api-fallback",
 		"build": "NODE_ENV=production webpack --config webpack.config.js --progress"
 	},
-	"author": "Priyanshu Jain",
-	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/priyanshujain/react-setup.git"
+	  },
+	  "author": "Priyanshu Jain",
+	  "license": "MIT",
+	  "bugs": {
+		"url": "https://github.com/priyanshujain/react-setup/issues"
+	  },
+	  "homepage": "https://github.com/priyanshujain/react-setup#readme",
 	"dependencies": {
 		"react": "^15.6.1",
 		"react-dom": "^15.6.1",
